@@ -2,7 +2,7 @@
 //  quicksort.cpp
 //  ub-sort
 //
-//  Created by Александр Махов on 5/10/20.
+//  Created by Alexander Makhov on 5/10/20.
 //
 
 #include "quicksort.hpp"
