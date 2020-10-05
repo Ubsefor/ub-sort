@@ -34,7 +34,7 @@ std::string current_working_directory()
 }
 
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char * argv[] ) {
   // insert code here...
   
 #ifdef DEBUG
