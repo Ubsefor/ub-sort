@@ -24,6 +24,7 @@
 #define OUT_PATH "./Output/"
 #define IN_PATH "./Files/"
 
+
 std::string current_working_directory()
 {
   char* cwd = getcwd( 0, 0 ) ; // **** microsoft specific ****
