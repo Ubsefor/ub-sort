@@ -20,7 +20,7 @@
 #include "testsuite.hpp"
 #define LOG_PATH "./Logs/"
 #endif
-
+ 
 #define OUT_PATH "./Output/"
 #define IN_PATH "./Files/"
 
