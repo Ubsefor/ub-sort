@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4768E37E252B259E0078F3FD /* quicksort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4768E37C252B259E0078F3FD /* quicksort.cpp */; };
+		4768E3A0252B2B180078F3FD /* testsuite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4768E38A252B275B0078F3FD /* testsuite.cpp */; };
+		4768E3A5252B2B9B0078F3FD /* fileworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4768E3A3252B2B9B0078F3FD /* fileworks.cpp */; };
 		47A38ED125276A1700A75E90 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47A38ED025276A1700A75E90 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4768E36C252B20330078F3FD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4768E36D252B20330078F3FD /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		4768E36E252B20330078F3FD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4768E37C252B259E0078F3FD /* quicksort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quicksort.cpp; sourceTree = "<group>"; };
+		4768E37D252B259E0078F3FD /* quicksort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = quicksort.hpp; sourceTree = "<group>"; };
+		4768E381252B25C70078F3FD /* hamlet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hamlet.txt; sourceTree = "<group>"; };
+		4768E38A252B275B0078F3FD /* testsuite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testsuite.cpp; sourceTree = "<group>"; };
+		4768E38B252B275B0078F3FD /* testsuite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = testsuite.hpp; sourceTree = "<group>"; };
+		4768E39C252B29E40078F3FD /* onegin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = onegin.txt; sourceTree = "<group>"; };
+		4768E3A3252B2B9B0078F3FD /* fileworks.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fileworks.cpp; sourceTree = "<group>"; };
+		4768E3A4252B2B9B0078F3FD /* fileworks.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fileworks.hpp; sourceTree = "<group>"; };
+		4768E3A8252B2BB30078F3FD /* romeo_and_juliet.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = romeo_and_juliet.txt; sourceTree = "<group>"; };
 		47A38ECD25276A1700A75E90 /* ub-sort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ub-sort"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A38ED025276A1700A75E90 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,10 +53,83 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4768E371252B20A30078F3FD /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4768E3A2252B2B8A0078F3FD /* FileWorks */,
+				4768E375252B219E0078F3FD /* QuickSort */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		4768E375252B219E0078F3FD /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				4768E37D252B259E0078F3FD /* quicksort.hpp */,
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
+		4768E379252B253D0078F3FD /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				4768E3A8252B2BB30078F3FD /* romeo_and_juliet.txt */,
+				4768E39C252B29E40078F3FD /* onegin.txt */,
+				4768E381252B25C70078F3FD /* hamlet.txt */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		4768E37A252B254B0078F3FD /* Output */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Output;
+			sourceTree = "<group>";
+		};
+		4768E37B252B255E0078F3FD /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		4768E382252B267A0078F3FD /* TestSuite */ = {
+			isa = PBXGroup;
+			children = (
+				4768E38B252B275B0078F3FD /* testsuite.hpp */,
+			);
+			path = TestSuite;
+			sourceTree = "<group>";
+		};
+		4768E3A2252B2B8A0078F3FD /* FileWorks */ = {
+			isa = PBXGroup;
+			children = (
+				4768E3A4252B2B9B0078F3FD /* fileworks.hpp */,
+			);
+			path = FileWorks;
+			sourceTree = "<group>";
+		};
+		4768E3AA252B2F830078F3FD /* Logs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logs;
+			sourceTree = "<group>";
+		};
 		47A38EC425276A1700A75E90 = {
 			isa = PBXGroup;
 			children = (
-				47A38ECF25276A1700A75E90 /* ub-sort */,
+				4768E36D252B20330078F3FD /* .gitignore */,
+				4768E36E252B20330078F3FD /* LICENSE */,
+				4768E36C252B20330078F3FD /* README.md */,
+				4768E37B252B255E0078F3FD /* Docs */,
+				4768E371252B20A30078F3FD /* Headers */,
+				47A38ECF25276A1700A75E90 /* Sources */,
+				4768E37A252B254B0078F3FD /* Output */,
+				4768E3AA252B2F830078F3FD /* Logs */,
+				4768E379252B253D0078F3FD /* Files */,
+				4768E382252B267A0078F3FD /* TestSuite */,
 				47A38ECE25276A1700A75E90 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +142,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		47A38ECF25276A1700A75E90 /* ub-sort */ = {
+		47A38ECF25276A1700A75E90 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				47A38ED025276A1700A75E90 /* main.cpp */,
+				4768E3A3252B2B9B0078F3FD /* fileworks.cpp */,
+				4768E37C252B259E0078F3FD /* quicksort.cpp */,
+				4768E38A252B275B0078F3FD /* testsuite.cpp */,
 			);
-			path = "ub-sort";
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4768E3A5252B2B9B0078F3FD /* fileworks.cpp in Sources */,
 				47A38ED125276A1700A75E90 /* main.cpp in Sources */,
+				4768E3A0252B2B180078F3FD /* testsuite.cpp in Sources */,
+				4768E37E252B259E0078F3FD /* quicksort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
